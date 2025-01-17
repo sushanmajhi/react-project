@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+
+     <style>
+    *{
+        margin: 0;
+        border-image-width: auto;
+    }
+    .imager{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 0;
+    background-color: #c9bda4;
+}
+
+@keyframes animl{
+            from{}
+            to{
+                transform: translate(300px);
+                background: yellow;
+                border-radius: 50%;
+            }
+
+        0%{}
+        50%{transform: translate(300px);
+                background: rgb(77, 77, 72);
+                border-radius: 50%;
+            }
+
+        100%{transform: translate(300px,300px);
+                background: rgb(130, 118, 150);
+                border-radius: 50%;
+            }
+
+}
+    
+
+
+
+
+
+
+
+
+     </style>
+</head>
+<body>
+     <!-- <div class="box"></div> -->
+    
+    <div class="imager">
+    <img src="https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg" alt="imager" width="400px" height="400px">
+</div>
+</body>
+</html>
